@@ -13,7 +13,7 @@ The issue occurred during post-hurricane recovery when infrastructure stability 
 Initial assessment focused on determining whether the issue was within the home network or external to it. Stable power, intact cabling, and identical behavior across multiple devices ruled out internal wiring, Wi-Fi, or device-specific faults. Direct Ethernet testing produced the same “connected but no internet” result, indicating the problem was not wireless-related. These checks pointed to an incomplete modem synchronization with the ISP network rather than a local hardware failure.
 
 ## Actions Taken
-Performed a physical reset of the modem by holding the reset button for approximately 15 seconds to clear stale configuration and force re-registration with the ISP network. Allowed a 15-minute stabilization period for automated provisioning and configuration refresh to complete.
+Performed a physical reset of the modem by holding down the reset button for approximately 15 seconds to clear stale configuration and force re-registration with the ISP network. Allowed a 15-minute stabilization period for automated provisioning and configuration refresh to complete.
 
 ## Outcome
 After the reset and automated provisioning cycle completed, the modem Online LED turned solid and downstream/upstream channels bonded successfully. All connected devices regained stable internet access, confirming service restoration.
