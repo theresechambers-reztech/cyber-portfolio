@@ -1,22 +1,23 @@
 # Hurricane-Related Network Outage Recovery
 
 ## Context
-(What was happening at the time)
+Following a nationwide hurricane that disrupted power and communications infrastructure across Jamaica, most surrounding homes regained internet access once grid power was restored. However, my home network remained offline while neighboring connections using the same ISP were functional. This incident documents the assessment and resolution of the post-disaster connectivity failure.
+
 
 ## Initial Symptoms
-(What you noticed first)
+The modem powered on normally with solid Power and DS/US indicators, but the Online LED continued blinking and never fully registered. All connected devices showed “Connected without Internet,” despite stable power and confirmed service availability in nearby homes.
 
 ## Constraints
-(What made this situation harder than normal)
+The issue occurred during post-hurricane recovery when infrastructure stability was uncertain. There was ISP support delays due to widespread outage recovery, and time pressure to restore connectivity for my studies. Service restoration needed to be achieved using basic troubleshooting methods.
 
 ## Assessment & Reasoning
-(What you checked, ruled out, and why)
+Initial assessment focused on determining whether the issue was within the home network or external to it. Stable power, intact cabling, and identical behavior across multiple devices ruled out internal wiring, Wi-Fi, or device-specific faults. Direct Ethernet testing produced the same “connected but no internet” result, indicating the problem was not wireless-related. These checks pointed to an incomplete modem synchronization with the ISP network rather than a local hardware failure.
 
 ## Actions Taken
-(What you did, step by step)
+Performed a physical reset of the modem by holding the reset button for approximately 15 seconds to clear stale configuration and force re-registration with the ISP network. Allowed a 15-minute stabilization period for automated provisioning and configuration refresh to complete.
 
 ## Outcome
-(What changed after your actions)
+After the reset and automated provisioning cycle completed, the modem Online LED turned solid and downstream/upstream channels bonded successfully. All connected devices regained stable internet access, confirming service restoration.
 
 ## Lessons Learned
-(What this taught you about troubleshooting and decision-making)
+This incident reinforced the importance of methodical troubleshooting during post-disaster recovery. Verifying power, cabling, and device behavior before escalation helped isolate the fault domain quickly. It also highlighted that automated ISP provisioning delays can persist after widespread outages, and that a controlled modem reset can safely trigger re-registration when local conditions are stable.
